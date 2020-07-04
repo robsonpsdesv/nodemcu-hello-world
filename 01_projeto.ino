@@ -50,7 +50,7 @@ void loop() {
   }
 
   if (t > 30.0f) {
-    updateTwitterStatus("Tweet enviado pela NodeMCU sobre a temperatura acima de 25ºC no Lab de Robótica");
+    updateTwitterStatus("Tweet enviado pela NodeMCU sobre a temperatura acima de 30ºC no Lab de Robótica");
     digitalWrite(LED1, LOW);
     digitalWrite(LED2, HIGH);
   } 
